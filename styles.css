@@ -1,0 +1,39 @@
+.container-fluid {
+  background-image: url(./raoul-droog-yMSecCHsIBc-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  color: #fff;
+  border-image: fill 0 linear-gradient(#0003, #000);
+}
+.glass-effect {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  height: 200px;
+  width: 200px;
+  border: 1px solid rgba(229, 229, 229, 0.583);
+  border-radius: 8px;
+}
+.btn-primary {
+  background: #ff9130;
+  border: 1px solid #ff9130;
+}
+.btn-primary:hover {
+  background: #ff5b22;
+  border: 1px solid #ff5b22;
+}
+body {
+  font-family: "Bree Serif", serif;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+.link:hover {
+  color: #ff5b22;
+}
